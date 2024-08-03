@@ -1,4 +1,5 @@
 import { PageLoader, Header } from "components/commons";
+import { MRP, OFFER_PRICE } from "components/constants";
 import { cartTotalOf } from "components/utils";
 import { useFetchCartProducts } from "hooks/reactQuery/useProductsApi";
 import i18n from "i18next";
@@ -11,7 +12,7 @@ import withTitle from "utils/withTitle";
 import PriceCard from "./PriceCard";
 import ProductCard from "./ProductCard";
 
-import { MRP, OFFER_PRICE } from "../constants";
+//import { MRP,OFFER_PRICE } from "../constants";
 
 const Cart = () => {
   const { t } = useTranslation();

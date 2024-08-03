@@ -95,4 +95,4 @@ const ProductList = () => {
   );
 };
 
-export default withTitle(ProductList);
+export default withTitle(ProductList, "Smilecart");

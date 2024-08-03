@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 
 const withTitle = (Component, title) => {
   const PageTitle = props => {
-    const pageTitle = title ? t("pageTitle", { title }) : t("title");
+    const pageTitle = title ? t("pageTitle", { title }) : t("Smilecart");
 
     return (
       <>
